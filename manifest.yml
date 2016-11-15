@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 100M
+  instances: 2
+  domain: mybluemix.net
+  name: ssolab-20160926
+  host: ssolab-20160926
+  disk_quota: 1024M
+  services:
+  - Single Sign On-in
